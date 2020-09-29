@@ -4,6 +4,10 @@
 
 http://taskplanner.centralus.azurecontainer.io:8080/users
 
+## Despliegue Frontend en Heroku (Usando HTTP para evitar errores de trafico mixto con el contenedor)
+
+http://taskplannerfrontend.herokuapp.com/
+
 ## Código de Honor
 
 Debes seguir el Código de honor del ingeniero de sistemas para defender el estándar de integridad académica de la ECI:
@@ -47,6 +51,9 @@ Creación del container en Azure.
 
 Verificación del servicio corriendo, usando un container de Azure.
 ![verificacion](https://user-images.githubusercontent.com/44879884/94372017-263a2e00-00c0-11eb-8bfa-300be161f327.PNG)
+
+Verificación de la lista de usuarios retornados por el backend utilizando el proyecto React TaskPlanner de laboratorios anteriores, para esto se creó un nuevo botón “UserList” que muestra la lista de usuarios utilizando la lista de usuarios retornados en la imagen anterior. Se debe usar el navegador de Firefox con la extensión CORS habilitada también el despliegue utilizando HTTP “http://taskplannerfrontend.herokuapp.com/” ya que el contenedor de Azure usa HTTP si usáramos en el despliegue HTTPS genera error de trafico mixto.
+![22B](https://user-images.githubusercontent.com/44879884/94510448-6a225580-01dc-11eb-83c9-66a8964ba08c.PNG)
 
 
 
