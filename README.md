@@ -8,6 +8,11 @@ http://taskplanner.centralus.azurecontainer.io:8080/users
 
 http://taskplannerfrontend.herokuapp.com/
 
+### Credenciales
+
+usuario: admin@mail.com
+clave: admin
+
 ## Código de Honor
 
 Debes seguir el Código de honor del ingeniero de sistemas para defender el estándar de integridad académica de la ECI:
