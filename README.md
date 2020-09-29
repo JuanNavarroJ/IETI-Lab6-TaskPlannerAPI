@@ -6,6 +6,8 @@ http://taskplanner.centralus.azurecontainer.io:8080/users
 
 ## Despliegue Frontend en Heroku (Usando HTTP para evitar errores de trafico mixto con el contenedor)
 
+Se debe usar el navegador de Firefox con la extensión CORS habilitada
+
 http://taskplannerfrontend.herokuapp.com/
 
 ### Credenciales
