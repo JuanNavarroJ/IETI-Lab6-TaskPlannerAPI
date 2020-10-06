@@ -2,6 +2,7 @@
 
 ## Despliegue Backend en Azure
 
+El contenedor en Azure se encuentra apagado para no cunsumir creditos, para su calificación por favor avisarme para encenderlo.
 http://taskplanner.centralus.azurecontainer.io:8080/users
 
 ## Despliegue Frontend en Heroku (Usando HTTP para evitar errores de trafico mixto con el contenedor)
